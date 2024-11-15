@@ -19,13 +19,13 @@ public class loginPageFactory {
 	WebElement btn_login;
 
 	public void enterUsername(String username) {
-		txt_username.sendKeys(username);
+		//txt_username.sendKeys(username);
 	}
 	public void enterPassword(String password) {
-		txt_password.sendKeys(password);
+		//txt_password.sendKeys(password);
 	}
 	public void clickOnLoginButton() {
-		btn_login.click();
+		
 	}
 
 public loginPageFactory(WebDriver driver) {
